@@ -25,7 +25,23 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+
+
 // Strings
+const [moo, neigh,baa,oink,cluck] = farmAnimals.split(' ')
+const [bessie, , dolly, babe, little] = farmAnimals.split(' ')
+const [blackAndWhite, ,black,pink] = farmAnimals.split(' ')
+const [red,orange,yellow,green,blue,indigo,violet] = colors
+const [r,o,y,g,b, ,v] = colors
+const [, , , , ,indg, ] = colors
+const {muppetName, color, song, job, partner} = muppet
+const {nestedJob,nestedPartner} = nestedMuppet
+const {song2,song4} = nestedMuppet.album.theMuppetMovie
+//destructing is matchmaking of the right with the left, it has to match the same amount of data types. objects have to have the same key.
+//in destructring whats on the left(objects) should equal to whats on the right(number)
+
+//split is method that splits the elements and return an array based on a case.
+
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
